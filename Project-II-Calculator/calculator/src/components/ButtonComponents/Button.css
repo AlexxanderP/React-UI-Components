@@ -1,0 +1,47 @@
+.button-container {
+    display: flex;
+    width: 100%;
+}
+.NumberPad {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: white;
+}
+.action-button {
+    height: 95px;
+    border: 1.5px solid rgb(116, 114, 114);
+    text-align: center;
+    padding: 10px;
+}
+.NumberPad .zero {
+    width: 100%;
+}
+.NumberPad .clear {
+    font-size: 45px;
+    padding: 5px 0 0;
+}
+.number-row {
+    display: flex;
+    width: 100%;
+}
+.operator-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    text-align: center;
+}
+.operator{
+    background: rgb(235, 0, 47);
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+}
+
+.number-button {
+    height: 95px;
+    border: 1.5px solid rgb(116, 114, 114);
+    font-weight: bold;
+    text-align: center;
+    font-size: 45px;
+    width: 34%;
+}
